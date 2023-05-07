@@ -43,7 +43,6 @@ productRoute.get("/:category", async (req, res) => {
     const order = req.query.order || "asc";
     const sortBy = req.query.sortBy || "discountPrice";
     let query = {};
-   
 
     if (search) {
       query.title = { $regex: search, $options: "i" };
@@ -56,9 +55,9 @@ productRoute.get("/:category", async (req, res) => {
     if (sortBy) {
       sortQuery[sortBy] = order === "asc" ? 1 : -1;
     }
-   
-console.log(sortQuery)
-  
+
+    console.log(sortQuery);
+
     const totalPages = Math.ceil(total / pageSize);
 
     const allProduct = await ProductModel.find(
