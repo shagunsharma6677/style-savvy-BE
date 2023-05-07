@@ -1,12 +1,12 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "��#\u0000 \u0000s\u0000t\u0000y\u0000l\u0000e\u0000-\u0000s\u0000a\u0000v\u0000v\u0000y\u0000-\u0000B\u0000E\u0000\r\u0000 \u0000",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "nodemon server.js",
-    "start":"node server.js"
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
@@ -20,5 +20,14 @@
     "mongodb": "^5.1.0",
     "mongoose": "^7.0.3",
     "nodemon": "^2.0.22"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shagunsharma6677/style-savvy-BE.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shagunsharma6677/style-savvy-BE/issues"
+  },
+  "homepage": "https://github.com/shagunsharma6677/style-savvy-BE#readme"
 }
